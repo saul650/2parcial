@@ -15,6 +15,24 @@ body{
     flex-direction: column;
     justify-content: center;
 }
+.action-buttons {
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-buttons button {
+    padding: 10px 20px;
+    background-color: yellow;
+    border: 3px solid #4b4672;
+    margin: 0 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1em;
+}
 .card{
     margin: 12px auto;
     max-width: 550px;
